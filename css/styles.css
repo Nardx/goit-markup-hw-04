@@ -111,6 +111,7 @@ body {
 
 .contact-list {
   display: flex;
+  align-items: center;
 }
 
 .contact-link {
@@ -119,17 +120,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color3);
-  margin-left: 50px;
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: var(--hover-color);
-}
-
-.sprite-test {
-  width: 32px;
-  height: 32px;
 }
 
 /* Header end*/
@@ -279,7 +274,55 @@ body {
   margin-bottom: 30px;
 }
 
+.team-section-ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.team-section-sociallink {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+}
+
+.test9 {
+  display: flex;
+  align-items: baseline;
+  width: 20px;
+  height: 20px;
+}
+
+.team-section-sociallink:hover,
+.team-section-sociallink:focus {
+  background-color: deepskyblue;
+}
+
 /*Team section end*/
+
+/*Regular customers*/
+
+.regular-list {
+  display: flex;
+}
+
+.regular-list-item {
+  margin-right: 30px;
+}
+
+.regular-customers-logo {
+  width: 170px;
+  height: 92px;
+}
+
+.regular-customers-logo:hover,
+.regular-customers-logo:focus {
+  color: #188ce8;
+  fill: blue;
+}
 
 /*Footer section */
 
@@ -422,4 +465,31 @@ body {
   color: var(--subtitle-color);
   margin-left: 24px;
   margin-bottom: 20px;
+}
+
+/*------------------SVG SECTION------------------*/
+
+.contact-mail-img {
+  width: 16px;
+  height: 12px;
+}
+
+.contact-phone-img {
+  width: 10px;
+  height: 16px;
+  margin-left: 30px;
+}
+
+.info-section-svg-background {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.info-section-img {
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: 25px;
 }
