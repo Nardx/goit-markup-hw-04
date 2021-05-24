@@ -127,6 +127,11 @@ body {
   color: var(--hover-color);
 }
 
+.sprite-test {
+  width: 32px;
+  height: 32px;
+}
+
 /* Header end*/
 
 /* Hero section */
