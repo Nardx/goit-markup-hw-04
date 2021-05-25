@@ -292,6 +292,7 @@ body {
   width: 20px;
   height: 20px;
   margin-top: 10px;
+  fill: #afb1b8;
 }
 
 .team-section-sociallink:hover,
@@ -303,27 +304,43 @@ body {
   margin-right: 10px;
 }
 
+.team-section-sociallink:hover .team-section-svg-item,
+.team-section-sociallink:focus .team-section-svg-item {
+  fill: #ffffff;
+}
+
 /*Team section end*/
 
 /*Regular customers*/
 
 .regular-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .regular-list-item {
-  margin-right: 30px;
-}
-
-.regular-customers-logo {
+  display: flex;
+  justify-content: center;
   width: 170px;
   height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
-.regular-customers-logo:hover,
-.regular-customers-logo:focus {
-  color: #188ce8;
-  fill: blue;
+.regular-customers-icon {
+  fill: #afb1b8;
+  width: 107px;
+  height: 60px;
+  margin-top: 16px;
+}
+
+.regular-list-link {
+}
+
+.regular-customers-icon:hover,
+.regular-customers-icon:focus {
+  fill: #2196f3;
 }
 
 /*Footer section */
