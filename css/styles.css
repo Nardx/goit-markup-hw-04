@@ -274,7 +274,7 @@ body {
   margin-bottom: 30px;
 }
 
-.team-section-ul {
+.team-section-list {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -285,20 +285,22 @@ body {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: #eeeeee;
   border-radius: 50%;
 }
 
-.test9 {
-  display: flex;
-  align-items: baseline;
+.team-section-svg-item {
   width: 20px;
   height: 20px;
+  margin-top: 10px;
 }
 
 .team-section-sociallink:hover,
 .team-section-sociallink:focus {
-  background-color: deepskyblue;
+  background-color: #2196f3;
+}
+
+.team-section-list-item {
+  margin-right: 10px;
 }
 
 /*Team section end*/
