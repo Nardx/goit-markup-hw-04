@@ -127,17 +127,31 @@ body {
   color: var(--hover-color);
 }
 
+.contact-mail-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.contact-phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-left: 30px;
+  fill: #757575;
+}
+
 /* Header end*/
 
 /* Hero section */
 
 .hero-section {
-  display: flex;
   padding-top: 200px;
   padding-bottom: 200px;
   align-items: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero/hero.jpg);
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .flex-hero-section {
@@ -291,7 +305,7 @@ body {
 .team-section-svg-item {
   width: 20px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 11px;
   fill: #afb1b8;
 }
 
@@ -319,6 +333,9 @@ body {
 }
 
 .regular-list-item {
+}
+
+.regular-list-link {
   display: flex;
   justify-content: center;
   width: 170px;
@@ -335,20 +352,24 @@ body {
   margin-top: 16px;
 }
 
-.regular-list-link {
+.regular-list-link:hover,
+.regular-list-link:focus {
+  border: 2px solid #2196f3;
 }
 
-.regular-customers-icon:hover,
-.regular-customers-icon:focus {
+.regular-list-link:hover .regular-customers-icon,
+.regular-list-link:focus .regular-customers-icon {
   fill: #2196f3;
 }
-
 /*Footer section */
 
 .footer-section {
+  display: flex;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .address-footer-list {
@@ -385,6 +406,54 @@ body {
 .address-google-link:hover,
 .address-google-link:focus {
   color: var(--hover-color);
+}
+
+.footer-social-container {
+  width: 206px;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+.social-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgb(255, 2555, 255, 0.1);
+  margin-right: 10px;
+}
+
+.join-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+  margin-top: 11px;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-section-container {
+  display: flex;
 }
 
 /*text-color*/
@@ -487,17 +556,6 @@ body {
 }
 
 /*------------------SVG SECTION------------------*/
-
-.contact-mail-img {
-  width: 16px;
-  height: 12px;
-}
-
-.contact-phone-img {
-  width: 10px;
-  height: 16px;
-  margin-left: 30px;
-}
 
 .info-section-svg-background {
   width: 270px;
