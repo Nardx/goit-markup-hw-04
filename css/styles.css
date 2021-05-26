@@ -136,7 +136,13 @@ body {
   width: 10px;
   height: 16px;
   margin-left: 30px;
-  fill: #757575;
+}
+
+.contact-link:hover .contact-mail-icon,
+.contact-link:focus .contact-mail-icon,
+.contact-link:hover .contact-phone-icon,
+.contact-link:focus .contact-phone-icon {
+  fill: currentColor;
 }
 
 /* Header end*/
@@ -197,6 +203,20 @@ body {
 
 .info-setcion-list {
   display: flex;
+}
+
+.info-section-svg-background {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.info-section-img {
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: 25px;
 }
 
 .info-setion-title {
@@ -556,17 +576,3 @@ body {
 }
 
 /*------------------SVG SECTION------------------*/
-
-.info-section-svg-background {
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
-}
-
-.info-section-img {
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
-  margin-top: 25px;
-}
