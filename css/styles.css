@@ -331,7 +331,7 @@ body {
 
 .team-section-sociallink:hover,
 .team-section-sociallink:focus {
-  background-color: #2196f3;
+  background-color: var(--hover-color);
 }
 
 .team-section-list-item {
@@ -374,12 +374,12 @@ body {
 
 .regular-list-link:hover,
 .regular-list-link:focus {
-  border: 2px solid #2196f3;
+  border: 2px solid var(--hover-color);
 }
 
 .regular-list-link:hover .regular-customers-icon,
 .regular-list-link:focus .regular-customers-icon {
-  fill: #2196f3;
+  fill: var(--hover-color);
 }
 /*Footer section */
 
@@ -467,7 +467,7 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #2196f3;
+  background-color: var(--hover-color);
 }
 
 .footer-section-container {
