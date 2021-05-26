@@ -352,9 +352,6 @@ body {
   justify-content: space-between;
 }
 
-.regular-list-item {
-}
-
 .regular-list-link {
   display: flex;
   justify-content: center;
