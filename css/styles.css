@@ -130,12 +130,16 @@ body {
 .contact-mail-icon {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
+  fill: #757575;
 }
 
 .contact-phone-icon {
   width: 10px;
   height: 16px;
   margin-left: 30px;
+  margin-right: 10px;
+  fill: #757575;
 }
 
 .contact-link:hover .contact-mail-icon,
@@ -385,7 +389,6 @@ body {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  max-width: 1600px;
   margin: 0 auto;
 }
 
